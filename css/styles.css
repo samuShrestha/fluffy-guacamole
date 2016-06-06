@@ -1,0 +1,103 @@
+/* Font Families */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300|Roboto+Slab:400,700);
+
+/* Colors:
+   Orange: #ff9800
+
+*/
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Fonts */
+h2, h3, h4, h5, p, small {
+   font-family: 'Roboto Slab', serif;
+   color: black;
+}
+
+h2 {
+   font-size: 5em;
+   font-weight: 700;
+   margin: 30px 15px;
+}
+
+h3 {
+   font-size: 3.5em;
+   margin: 15px 10px;
+}
+
+h4 {
+   font-size: 2.2em;
+   font-weight: 700;
+   margin: 15px 0;
+}
+
+h5 {
+   font-size: 1.625em;
+   margin: 15px 10px;
+}
+
+p {
+   font-size: 1.25em;
+}
+
+.lead {
+   font-size: 1.5em !important;
+}
+
+.thick-header {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 800 !important;
+   font-size: 10em !important;
+   color: #ffffff !important;
+}
+
+.splash-header {
+   font-family: 'Roboto Slab', serif;
+   font-size: 4.25em !important;
+   color: #ffffff !important;
+   padding: 1em;
+}
+
+.splash-icon {
+   color: #fff !important;
+   font-size: 5em;
+}
+
+.full-width {
+   margin: 0 -9999rem;
+   padding: 0.25rem 9999rem;
+   background: #ccc;
+}
+
+/* Custom Styles */
+#splash {
+   height: 100vh;
+   background-color: #ff9800;
+}
+
+/* Margins */
+.margin-top-45 {
+   margin-top: 45px;
+}
+
+.margin-top-5p {
+   margin-top: 5%;
+}
+
+.margin-vert-5p {
+   margin: 5% 0;
+}
+
+.margin-vert-2p {
+   margin: 2% 0;
+}
+
+.margin-5p {
+   margin: 5% 0;
+}
+
+.animated {
+   visibility: hidden;
+}
